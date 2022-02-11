@@ -1,6 +1,6 @@
 import subprocess
 
-audio = "youtube-dl "
+audio = "youtube-dl --rm-cache-dir "
 
 with open('yt-urls.txt', 'r') as f:
     i = 0
